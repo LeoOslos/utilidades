@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utilidades"
+version = "1.0.0"
+description = "Utilidades comunes a varios proyectos (formato estándar de log)"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["registro_log"]

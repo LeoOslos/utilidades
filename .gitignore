@@ -1,0 +1,8 @@
+# Repo PÚBLICO: se ignora todo y se versiona solo lo listado.
+*
+!.gitignore
+!README.md
+!pyproject.toml
+!registro_log.py
+!tests/
+!tests/test_registro_log.py
