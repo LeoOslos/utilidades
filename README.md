@@ -10,7 +10,7 @@ mano a cada lugar y se quedaba en uno solo. Ahora el módulo vive acá, una vez,
 declara en su `requirements.txt` qué versión usa:
 
 ```
-utilidades @ git+ssh://git@github.com/LeoOslos/utilidades.git@v1.0.0
+utilidades @ git+https://github.com/LeoOslos/utilidades.git@v1.0.0
 ```
 
 `pip install -r requirements.txt` clona el repo en ese tag y deja `registro_log` instalado en el
