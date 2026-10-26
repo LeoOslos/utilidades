@@ -1,0 +1,22 @@
+# Mantenimiento planificado de dependencias: una vez por mes Dependabot abre UN pull
+# request con lo menor (minor y patch) y uno por cada salto de versión mayor, que puede
+# romper y se revisa solo.
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      timezone: "America/Argentina/Buenos_Aires"
+    groups:
+      pip-mensual:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      timezone: "America/Argentina/Buenos_Aires"
+    groups:
+      actions-mensual:
+        patterns: ["*"]

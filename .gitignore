@@ -6,3 +6,7 @@
 !registro_log.py
 !tests/
 !tests/test_registro_log.py
+!.github/
+!.github/dependabot.yml
+!.github/workflows/
+!.github/workflows/tests.yml
